@@ -1,0 +1,50 @@
+<nav class="navbar shadow-sm bg-white">
+    <button class="btn toggler-btn">
+        <i class="fa fa-align-left"></i>
+    </button>
+</nav>
+<div class="row p-4 animate__animated animate__slideInDown">    
+    <div class="col-md-4 bg-white shadow-sm p-4">
+        <h5>
+            CREATE BRAND
+            <i class="fa-solid fa-rotate-right float-end"></i>
+        </h5>
+        <form class="brand-form">
+            <select class="form-select mb-3">
+                <option value="choose category">Choose Category</option>
+            </select>
+            <input type="text" class="mb-3 form-control"placeholder="Brand">
+            <div class="input-box">
+                
+            </div>
+            <button type="button" class="btn btn-primary">
+                <i class="fa fa-add"></i>Add Fields
+            </button>
+            <button class="btn btn-danger">Create</button>
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-6 bg-white shadow-sm p-4">
+        <h5>
+            BRAND LIST
+            <i class="fa-solid fa-rotate-right float-end"></i>
+        </h5>
+        <hr>
+        <select class="form-select cat-list-select mb-3">
+            <option value="choose category">Choose Category</option>
+        </select>
+        <table class="table-striped table fw-bold">
+            <thead>
+                <tr>
+                    <th>Sr</th>
+                    <th>Category</th>
+                    <th>Brand</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="brand-list">
+                
+            </tbody>
+        </table>
+    </div>
+</div>

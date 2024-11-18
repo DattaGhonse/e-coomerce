@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Panel</title>
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="../common/css/bootstrap.min.css">
+    <script src="../common/js/bootstrap.bundle.min.js"></script>
+    <!-- sweet alert link -->
+    <script src="../common/js/sweetalert.min.js"></script>
+    <!-- Animate css link -->
+    <link rel="stylesheet" href="../common/css/animate.min.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start navbar coding -->
+    <div class="navbar-box">
+
+    </div>
+    <!-- start mainpage coding -->
+    <div class="container bg-white shadow-lg p-4 mb-4" style="margin-top: 70px;">
+        <h3 class="text-center fw-bold mb-3">Cookie</h3>
+        <hr>
+        <div class="cookie-box">
+
+        </div>
+    </div>
+
+    <!-- start footer coding -->
+    <div class="footer-box">
+
+    </div>
+    <!-- custom script coding -->
+     <script src="../common/js/common.js"></script>
+     <script src="../js/dynamic.js"></script>
+
+     <script>
+        const navbarBox = document.querySelector(".navbar-box");
+        const footerBox = document.querySelector(".footer-box");
+        const cookieBox = document.querySelector(".cookie-box");
+        dyanamicRequest(navbarBox,"nav.html");
+        dyanamicRequest(footerBox,"footer.html");
+        cookieBox.innerHTML = brandingData[0].b_cookie;
+     </script>
+</body>
+
+</html>

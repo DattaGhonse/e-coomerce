@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Panel</title>
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="../common/css/bootstrap.min.css">
+    <script src="../common/js/bootstrap.bundle.min.js"></script>
+    <!-- sweet alert link -->
+    <script src="../common/js/sweetalert.min.js"></script>
+    <!-- Animate css link -->
+    <link rel="stylesheet" href="../common/css/animate.min.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- start custom css coding -->
+    <link rel="stylesheet" href="../employee/css/employee.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="side-nav side-nav-open">
+            <button access-link="dynamic/branding_design.html" class="active btn collapse-item text-white w-100 fw-bold" style="font-size:20px;">
+                <i class="fa fa-image float-start mt-2"></i>
+                 Branding Details
+            </button>
+            <button class="btn collapse-btn text-white w-100 fw-bold" style="font-size:20px;">
+                <i class="fa fa-shopping-cart float-start mt-2"></i>
+                 Stocks Update
+                <i class="fa fa-angle-down float-end mt-2"></i>
+            </button>
+            <ul class="collapse show">
+                <li access-link="dynamic/cat_design.html"
+                    class="collapse-item list-group-item border-0 border-start text-white bg-transparent">
+                    Create Category
+                </li>
+                <li access-link="dynamic/brand_design.html"
+                    class="collapse-item list-group-item border-0 border-start text-white bg-transparent">
+                    Create Brands
+                </li>
+                <li access-link="dynamic/product_design.html"
+                    class=" collapse-item list-group-item border-0 border-start text-white bg-transparent">
+                    Create Products
+                </li>
+            </ul>
+
+        </div>
+        <div class="page page-open">
+            
+        </div>
+    </div>
+    <!-- custom script coding -->
+    <script src="../employee/js/employee.js"></script>
+    <script src="../common/js/common.js"></script>
+</body>
+
+</html>
